@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-02-11T18:55:03.949Z",
+  "categories": {
+    "critical": {
+      "total": 7,
+      "exists": 7,
+      "ok": 7,
+      "hasIssues": 0,
+      "missing": 0,
+      "templates": 0
+    },
+    "public": {
+      "total": 10,
+      "exists": 10,
+      "ok": 10,
+      "hasIssues": 0,
+      "missing": 0,
+      "templates": 0
+    },
+    "checkout": {
+      "total": 5,
+      "exists": 5,
+      "ok": 5,
+      "hasIssues": 0,
+      "missing": 0,
+      "templates": 0
+    },
+    "admin": {
+      "total": 15,
+      "exists": 15,
+      "ok": 15,
+      "hasIssues": 0,
+      "missing": 0,
+      "templates": 0
+    },
+    "help": {
+      "total": 4,
+      "exists": 4,
+      "ok": 4,
+      "hasIssues": 0,
+      "missing": 0,
+      "templates": 0
+    },
+    "settings": {
+      "total": 2,
+      "exists": 2,
+      "ok": 2,
+      "hasIssues": 0,
+      "missing": 0,
+      "templates": 0
+    },
+    "special": {
+      "total": 3,
+      "exists": 3,
+      "ok": 3,
+      "hasIssues": 0,
+      "missing": 0,
+      "templates": 0
+    },
+    "dynamic": {
+      "total": 4,
+      "exists": 4,
+      "ok": 4,
+      "hasIssues": 0,
+      "missing": 0,
+      "templates": 4
+    }
+  },
+  "summary": {
+    "totalPages": 50,
+    "pagesExist": 50,
+    "pagesOk": 50,
+    "pagesWithIssues": 0,
+    "missingPages": 0,
+    "templatePages": 4,
+    "apiRoutes": 48,
+    "configFiles": 7,
+    "requiredConfigMissing": 0
+  },
+  "recommendations": []
+}

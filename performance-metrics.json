@@ -1,0 +1,46 @@
+{
+  "bundleSize": 3341604,
+  "largestChunks": [
+    {
+      "name": "4d8867717d20caba.js",
+      "size": 395281
+    },
+    {
+      "name": "7601b31bf79734b9.js",
+      "size": 224406
+    },
+    {
+      "name": "a6dad97d9634a72d.js",
+      "size": 112594
+    },
+    {
+      "name": "851993e3817fe478.js",
+      "size": 111368
+    },
+    {
+      "name": "f7d7d920f553d822.js",
+      "size": 95749
+    },
+    {
+      "name": "91493039a1310781.js",
+      "size": 88680
+    },
+    {
+      "name": "9493a6653efc4f8e.js",
+      "size": 77328
+    },
+    {
+      "name": "d862740f899631ee.js",
+      "size": 73347
+    },
+    {
+      "name": "0bdbbb66a509e7cf.js",
+      "size": 68629
+    },
+    {
+      "name": "45c8e63f61cf5d95.js",
+      "size": 67226
+    }
+  ],
+  "timestamp": "2026-02-10T06:56:58.262Z"
+}

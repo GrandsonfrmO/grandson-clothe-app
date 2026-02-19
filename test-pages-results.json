@@ -1,0 +1,726 @@
+{
+  "timestamp": "2026-02-11T16:12:45.500Z",
+  "stats": {
+    "total": 50,
+    "success": 46,
+    "error": 0,
+    "missing": 4,
+    "duration": "55ms"
+  },
+  "results": [
+    {
+      "page": "/",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 2229,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/explorer",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 1781,
+        "hasJSX": true,
+        "hasUseClient": false,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/models",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 3455,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/models/1",
+      "status": "missing",
+      "exists": false,
+      "error": "Page file not found"
+    },
+    {
+      "page": "/produit/1",
+      "status": "missing",
+      "exists": false,
+      "error": "Page file not found"
+    },
+    {
+      "page": "/panier",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 8710,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/favoris",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 5534,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/profil",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 16929,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/recherche",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 11561,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/notifications",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 12010,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/commandes",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 12892,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/commandes/ORDER-123",
+      "status": "missing",
+      "exists": false,
+      "error": "Page file not found"
+    },
+    {
+      "page": "/adresses",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 18215,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/paiement",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 7050,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/confidentialite",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 8251,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/aide",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 7053,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/aide/commandes",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 7474,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/aide/livraison",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 8865,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/aide/paiement",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 9628,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/aide/retours",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 10411,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/parametres",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 12152,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/parametres/langue",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 2316,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/parametres/about",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 4894,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/zones-livraison",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 5879,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/checkout-choice",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 7059,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/checkout-guest",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 21932,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/checkout",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 19752,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/order-confirmation",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 18710,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/payment-success",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 7504,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/payment-failure",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 5150,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/pwa-demo",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 1113,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 19542,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/login",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 5986,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/analytics",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 11653,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/app-icons",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 41475,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/categories",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 13061,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/gallery",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 8956,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/homepage",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 18336,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/inventory",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 24761,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/media-library",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 12765,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/models",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 14527,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/orders",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 37701,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/products",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 15366,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/products/new",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 19804,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/products/1/edit",
+      "status": "missing",
+      "exists": false,
+      "error": "Page file not found"
+    },
+    {
+      "page": "/admin/settings",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 16460,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/special-offer",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 12844,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/users",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 9279,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/admin/videos",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 14228,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    },
+    {
+      "page": "/test-simple",
+      "status": "success",
+      "exists": true,
+      "checks": {
+        "hasReactImport": false,
+        "hasDefaultExport": true,
+        "hasFunctionComponent": true,
+        "fileSize": 813,
+        "hasJSX": true,
+        "hasUseClient": true,
+        "hasUseServer": false
+      },
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+# Fichiers de développement
+.env.local
+.env.development
+.env.test
+
+# Dossiers de développement
+node_modules
+.next
+.turbo
+.vercel
+
+# Fichiers de test
+scripts/test-*.ts
+scripts/test-*.js
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+
+# Documentation de développement
+GUIDE-*.md
+TEST-*.md
+RESULTATS-*.md
+RAPPORT-*.md
+BRIEFING-*.md
+CHANGELOG-*.md
+ANALYSE-*.md
+AMELIORATIONS-*.md
+OPTIMISATIONS-*.md
+MIGRATION-*.md
+CORRECTION-*.md
+INSTALLATION-*.md
+RESUME-*.md
+SYNTHESE-*.md
+INDEX-*.md
+CELEBRATION.md
+SUCCES-*.md
+LIRE-MOI-*.md
+LIRE-MOI-*.txt
+ACTION-*.md
+FIX-*.sql
+FIX-*.md
+DISABLE-*.sql
+
+# Fichiers temporaires
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Base de données locale
+*.db
+*.sqlite
+*.sqlite3
+
+# Drizzle
+drizzle
+
+# Scripts de migration
+scripts/migrate-*.ts
+scripts/migrate-*.js
+scripts/apply-*.ts
+scripts/apply-*.js
+scripts/fix-*.ts
+scripts/fix-*.js
+scripts/seed-*.ts
+scripts/seed-*.js
+scripts/verify-*.ts
+scripts/verify-*.js
+scripts/diagnose-*.ts
+scripts/create-*.ts
+scripts/setup-*.ts
+scripts/update-*.ts
+scripts/optimize-*.ts
+scripts/generate-*.ts
+scripts/direct-*.ts
+scripts/auto-*.js
+scripts/force-*.js
+scripts/finalize-*.js
+scripts/check-*.js
+scripts/simple-*.ts
+scripts/init-*.ts
+scripts/execute-*.ts
+scripts/preview-*.html
+
+# Supabase local
+supabase/.temp
+supabase/.branches
+
+# Kiro
+.kiro
+
+# VSCode
+.vscode
+
+# Backup files
+*.BACKUP.*
+*.OPTIMIZED.*
+*.SECURE.*
+*.ULTRA.*

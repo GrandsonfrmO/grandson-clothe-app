@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-02-11T16:18:01.252Z",
+  "application": "Grandson Clothes App",
+  "results": [
+    {
+      "test": "Test rapide des pages",
+      "success": true,
+      "skipped": false,
+      "duration": 324,
+      "error": null
+    },
+    {
+      "test": "Analyse du build Next.js",
+      "success": true,
+      "skipped": false,
+      "duration": 7131,
+      "error": null
+    },
+    {
+      "test": "Test des pages (sans serveur)",
+      "success": true,
+      "skipped": false,
+      "duration": 156,
+      "error": null
+    },
+    {
+      "test": "Test HTTP des pages",
+      "success": false,
+      "skipped": true,
+      "duration": null,
+      "error": null
+    },
+    {
+      "test": "Test TypeScript",
+      "success": false,
+      "skipped": false,
+      "duration": null,
+      "error": "Command failed: npx tsc --noEmit --skipLibCheck"
+    },
+    {
+      "test": "Vérification ESLint",
+      "success": false,
+      "skipped": false,
+      "duration": null,
+      "error": "spawnSync C:\\WINDOWS\\system32\\cmd.exe ETIMEDOUT"
+    }
+  ],
+  "summary": {
+    "total": 6,
+    "passed": 3,
+    "failed": 2,
+    "skipped": 1
+  }
+}

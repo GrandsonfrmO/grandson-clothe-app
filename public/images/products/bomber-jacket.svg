@@ -1,0 +1,16 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#f8fafc"/>
+  <!-- Jacket body -->
+  <path d="M120 140 L120 120 C120 110 130 100 140 100 L160 100 L160 90 C160 80 170 70 180 70 L220 70 C230 70 240 80 240 90 L240 100 L260 100 C270 100 280 110 280 120 L280 140 L300 140 L300 160 L280 160 L280 320 C280 330 270 340 260 340 L140 340 C130 340 120 330 120 320 L120 160 L100 160 L100 140 Z" fill="#059669"/>
+  <!-- Sleeves -->
+  <ellipse cx="90" cy="200" rx="20" ry="80" fill="#047857"/>
+  <ellipse cx="310" cy="200" rx="20" ry="80" fill="#047857"/>
+  <!-- Zipper -->
+  <rect x="198" y="100" width="4" height="200" fill="#374151"/>
+  <!-- Pockets -->
+  <rect x="140" y="200" width="30" height="20" rx="4" fill="#047857"/>
+  <rect x="230" y="200" width="30" height="20" rx="4" fill="#047857"/>
+  <!-- Collar -->
+  <rect x="160" y="70" width="80" height="15" rx="8" fill="#047857"/>
+  <text x="200" y="360" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="14">Bomber Jacket</text>
+</svg>

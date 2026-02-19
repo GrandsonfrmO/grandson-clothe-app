@@ -1,0 +1,10 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#f8fafc"/>
+  <!-- T-shirt shape -->
+  <path d="M120 120 L120 100 C120 90 130 80 140 80 L160 80 L160 70 C160 60 170 50 180 50 L220 50 C230 50 240 60 240 70 L240 80 L260 80 C270 80 280 90 280 100 L280 120 L300 120 L300 140 L280 140 L280 350 C280 360 270 370 260 370 L140 370 C130 370 120 360 120 350 L120 140 L100 140 L100 120 Z" fill="#1f2937"/>
+  <!-- Graphic design -->
+  <circle cx="200" cy="200" r="40" fill="#3b82f6"/>
+  <text x="200" y="210" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">GC</text>
+  <!-- Brand text -->
+  <text x="200" y="320" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="14">T-shirt Graphique</text>
+</svg>
