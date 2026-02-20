@@ -79,7 +79,7 @@ export function TrendingSection() {
       </div>
 
       <div className="flex gap-4 overflow-x-auto px-4 pb-4 scrollbar-hide snap-x snap-mandatory">
-        {products.map((product) => (
+        {products.map((product: any) => (
           <div key={product.id} className="snap-start">
             <ProductCard product={{
               id: product.id,

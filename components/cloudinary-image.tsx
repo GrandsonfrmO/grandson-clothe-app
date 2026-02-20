@@ -93,11 +93,6 @@ export function CloudinaryImage({
       priority={priority}
       onLoadingComplete={() => setIsLoading(false)}
       onError={() => setError(true)}
-      srcSet={`
-        ${responsiveUrls.mobile} 400w,
-        ${responsiveUrls.tablet} 600w,
-        ${responsiveUrls.desktop} 800w
-      `}
       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
     />
   );

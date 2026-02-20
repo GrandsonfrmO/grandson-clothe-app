@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-02-11T16:12:45.500Z",
+  "timestamp": "2026-02-20T02:17:16.944Z",
   "stats": {
     "total": 50,
     "success": 46,
     "error": 0,
     "missing": 4,
-    "duration": "55ms"
+    "duration": "10ms"
   },
   "results": [
     {
@@ -31,7 +31,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 1781,
+        "fileSize": 1723,
         "hasJSX": true,
         "hasUseClient": false,
         "hasUseServer": false
@@ -46,7 +46,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 3455,
+        "fileSize": 3357,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -73,7 +73,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 8710,
+        "fileSize": 8486,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -88,7 +88,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 5534,
+        "fileSize": 5366,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -103,7 +103,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 16929,
+        "fileSize": 16432,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -118,7 +118,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 11561,
+        "fileSize": 11230,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -133,7 +133,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 12010,
+        "fileSize": 11675,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -148,7 +148,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 12892,
+        "fileSize": 12552,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -169,7 +169,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 18215,
+        "fileSize": 17670,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -184,7 +184,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 7050,
+        "fileSize": 6879,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -199,7 +199,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 8251,
+        "fileSize": 8061,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -214,7 +214,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 7053,
+        "fileSize": 6852,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -229,7 +229,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 7474,
+        "fileSize": 7323,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -244,7 +244,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 8865,
+        "fileSize": 8696,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -259,7 +259,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 9628,
+        "fileSize": 9462,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -274,7 +274,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 10411,
+        "fileSize": 10236,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -289,7 +289,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 12152,
+        "fileSize": 11798,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -304,7 +304,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 2316,
+        "fileSize": 2249,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -319,7 +319,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 4894,
+        "fileSize": 4753,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -334,7 +334,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 5879,
+        "fileSize": 5747,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -349,7 +349,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 7059,
+        "fileSize": 6872,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -364,7 +364,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 21932,
+        "fileSize": 21363,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -379,7 +379,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 19752,
+        "fileSize": 19220,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -394,7 +394,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 18710,
+        "fileSize": 18234,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -409,7 +409,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 7504,
+        "fileSize": 7278,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -424,7 +424,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 5150,
+        "fileSize": 5001,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -439,7 +439,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 1113,
+        "fileSize": 1080,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -454,7 +454,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 19542,
+        "fileSize": 19028,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -469,7 +469,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 5986,
+        "fileSize": 5824,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -484,7 +484,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 11653,
+        "fileSize": 11322,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -499,7 +499,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 41475,
+        "fileSize": 40487,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -514,7 +514,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 13061,
+        "fileSize": 12761,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -529,7 +529,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 8956,
+        "fileSize": 8687,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -544,7 +544,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 18336,
+        "fileSize": 17946,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -559,7 +559,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 24761,
+        "fileSize": 24125,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -574,7 +574,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 12765,
+        "fileSize": 12466,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -589,7 +589,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 14527,
+        "fileSize": 14154,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -604,7 +604,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 37701,
+        "fileSize": 36861,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -619,7 +619,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 15366,
+        "fileSize": 14959,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -634,7 +634,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 19804,
+        "fileSize": 19293,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -655,7 +655,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 16460,
+        "fileSize": 16024,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -670,7 +670,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 12844,
+        "fileSize": 12529,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -685,7 +685,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 9279,
+        "fileSize": 9025,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -700,7 +700,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 14228,
+        "fileSize": 13867,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false
@@ -715,7 +715,7 @@
         "hasReactImport": false,
         "hasDefaultExport": true,
         "hasFunctionComponent": true,
-        "fileSize": 813,
+        "fileSize": 793,
         "hasJSX": true,
         "hasUseClient": true,
         "hasUseServer": false

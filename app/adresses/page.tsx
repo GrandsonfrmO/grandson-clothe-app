@@ -282,6 +282,7 @@ function AdressesContent() {
                     type: "home",
                     label: "",
                     name: "",
+        email: "",
                     phone: "",
                     address: "",
                     city: "Conakry",

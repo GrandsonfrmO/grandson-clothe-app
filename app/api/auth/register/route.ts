@@ -47,12 +47,10 @@ export async function POST(request: NextRequest) {
       role: newUser.role,
     })
 
-    // Return user data (without password)
-    const { password, ...userWithoutPassword } = newUser
-
+    // Return user data (already without password in User type)
     return NextResponse.json({
       message: 'Compte créé avec succès',
-      user: userWithoutPassword,
+      user: newUser,
       token,
     })
   } catch (error) {

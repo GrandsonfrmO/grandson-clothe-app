@@ -3,9 +3,10 @@ import { NextRequest, NextResponse } from 'next/server'
 
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    const { id } = await params
     const token = request.headers.get('authorization')?.split(' ')[1]
     if (!token) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
@@ -24,7 +25,7 @@ export async function PUT(
     const { data, error } = await supabase
       .from('categories_images')
       .update(body)
-      .eq('id', params.id)
+      .eq('id', id)
       .select()
 
     if (error) throw error
@@ -38,9 +39,10 @@ export async function PUT(
 
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    const { id } = await params
     const token = request.headers.get('authorization')?.split(' ')[1]
     if (!token) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
@@ -58,7 +60,7 @@ export async function DELETE(
     const { error } = await supabase
       .from('categories_images')
       .delete()
-      .eq('id', params.id)
+      .eq('id', id)
 
     if (error) throw error
 

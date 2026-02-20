@@ -53,8 +53,8 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const customerEmail = order.is_guest ? order.guest_email : order.users?.email
-    const customerName = order.is_guest ? 'Client' : order.users?.first_name || 'Client'
+    const customerEmail = order.is_guest ? order.guest_email : (order.users as any)?.[0]?.email
+    const customerName = order.is_guest ? 'Client' : (order.users as any)?.[0]?.first_name || 'Client'
 
     if (!customerEmail) {
       return NextResponse.json(

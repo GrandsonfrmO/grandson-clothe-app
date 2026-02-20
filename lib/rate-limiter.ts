@@ -130,7 +130,7 @@ export async function applyRateLimit(
   
   const result = await rateLimiter.check(key, config.maxRequests, config.windowMs)
   
-  const headers = {
+  const headers: Record<string, string> = {
     'X-RateLimit-Limit': config.maxRequests.toString(),
     'X-RateLimit-Remaining': result.remaining.toString(),
     'X-RateLimit-Reset': new Date(result.resetTime).toISOString(),

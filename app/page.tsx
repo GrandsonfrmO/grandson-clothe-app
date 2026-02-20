@@ -31,25 +31,25 @@ export default function Home() {
           {/* Critical sections */}
           <HeroBanner />
           <QuickCategories />
-          <FeaturedProducts title="Nouveautés" initialProducts={[]} />
+          <FeaturedProducts title="Nouveautés" />
           
           {/* Non-critical sections - with Suspense */}
           <Suspense fallback={<SectionSkeleton />}>
-            <SpecialOfferSection initialData={null} />
+            <SpecialOfferSection />
           </Suspense>
           
           <Suspense fallback={<SectionSkeleton />}>
-            <GallerySection initialData={null} />
+            <GallerySection />
           </Suspense>
           
           <PromoCard />
           
           <Suspense fallback={<SectionSkeleton />}>
-            <VideosSection initialData={null} />
+            <VideosSection />
           </Suspense>
           
           <Suspense fallback={<SectionSkeleton />}>
-            <ModelsSection initialData={null} />
+            <ModelsSection />
           </Suspense>
           
           <Suspense fallback={<SectionSkeleton />}>

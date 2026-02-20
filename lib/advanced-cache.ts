@@ -27,11 +27,11 @@ export function setAdvancedCache(key: string, data: any, ttl: number = 5 * 60 * 
     // Check if we need to clear old entries
     if (currentSize + size > MAX_CACHE_SIZE) {
       // Remove oldest entries (LRU)
-      const entries = Array.from(cache.entries())
+      const entriesToClear = Array.from(cache.entries())
         .sort((a, b) => a[1].timestamp - b[1].timestamp)
-        .slice(0, Math.floor(entries.length * 0.3))
+        .slice(0, Math.floor(cache.size * 0.3))
 
-      entries.forEach(([k]) => {
+      entriesToClear.forEach(([k]) => {
         const entry = cache.get(k)
         if (entry) {
           currentSize -= entry.size

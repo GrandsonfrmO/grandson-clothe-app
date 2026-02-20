@@ -121,9 +121,9 @@ export async function GET(
       isVerified: review.is_verified,
       createdAt: review.created_at,
       user: {
-        firstName: review.users?.first_name,
-        lastName: review.users?.last_name,
-        avatar: review.users?.avatar,
+        firstName: (review.users as any)?.[0]?.first_name,
+        lastName: (review.users as any)?.[0]?.last_name,
+        avatar: (review.users as any)?.[0]?.avatar,
       }
     })) || []
 

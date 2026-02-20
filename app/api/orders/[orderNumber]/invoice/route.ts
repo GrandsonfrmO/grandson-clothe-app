@@ -4,9 +4,10 @@ import { authenticateRequest } from '@/lib/simple-auth'
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { orderNumber: string } }
+  { params }: { params: Promise<{ orderNumber: string }> }
 ) {
   try {
+    const { orderNumber } = await params
     const user = await authenticateRequest(request)
     if (!user) {
       return NextResponse.json(
@@ -24,7 +25,7 @@ export async function GET(
           products (*)
         )
       `)
-      .eq('order_number', params.orderNumber)
+      .eq('order_number', orderNumber)
       .eq('user_id', user.id)
       .single()
 
@@ -41,7 +42,7 @@ export async function GET(
       orderNumber: order.order_number,
       date: new Date(order.created_at).toLocaleDateString('fr-FR'),
       customer: {
-        name: `${user.first_name} ${user.last_name}`,
+        name: `${user.firstName} ${user.lastName}`,
         email: user.email,
         phone: user.phone,
       },

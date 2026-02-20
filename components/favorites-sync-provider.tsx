@@ -22,10 +22,10 @@ export function FavoritesSyncProvider({ children }: { children: React.ReactNode 
         for (const favorite of apiFavorites) {
           if (favorite.product) {
             addToFavorites({
-              id: favorite.product.id,
+              id: Number(favorite.product.id),
               name: favorite.product.name,
-              price: favorite.product.price,
-              originalPrice: favorite.product.originalPrice,
+              price: Number(favorite.product.price),
+              originalPrice: favorite.product.originalPrice ? Number(favorite.product.originalPrice) : undefined,
               images: favorite.product.images,
               category: favorite.product.category?.name || 'Produit',
               isNew: favorite.product.isNew,
