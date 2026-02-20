@@ -22,7 +22,7 @@ async function updateProductImages() {
     for (const [productId, images] of Object.entries(PRODUCT_IMAGES_MAP)) {
       const id = parseInt(productId)
       
-      await db
+      await db!
         .update(products)
         .set({ images: JSON.stringify(images) })
         .where(eq(products.id, id))

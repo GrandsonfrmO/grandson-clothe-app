@@ -86,7 +86,7 @@ export default function ModelsPage() {
       toast.success(editingModel ? 'Mannequin mis à jour' : 'Mannequin créé')
       setIsDialogOpen(false)
       setEditingModel(null)
-      setFormData({ name: '', image_url: '', bio: '', instagram_handle: '', display_order: 0 })
+      setFormData({ name: '', image_url: '', bio: '', instagram_handle: '', email: '', phone: '', display_order: 0 })
       fetchModels()
     } catch (error) {
       console.error('Error saving model:', error)

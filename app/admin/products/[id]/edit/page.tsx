@@ -42,6 +42,7 @@ interface ProductForm {
   images: string[]
   sizes: string[]
   colors: string[]
+  features: string[]
   stock: number
   isNew: boolean
   isActive: boolean
@@ -100,6 +101,7 @@ export default function EditProductPage({ params }: EditProductPageProps) {
           images: product.images || [],
           sizes: product.sizes || [],
           colors: product.colors || [],
+          features: product.features || [],
           stock: product.stock || 0,
           isNew: product.isNew || false,
           isActive: product.isActive !== false
@@ -514,7 +516,7 @@ export default function EditProductPage({ params }: EditProductPageProps) {
                     </span>
                     {formData.originalPrice && (
                       <span className="text-sm text-muted-foreground line-through">
-                        {parseInt(formData.originalPrice).toLocaleString()} GNF
+                        {`${parseInt(formData.originalPrice).toLocaleString()} GNF`}
                       </span>
                     )}
                   </div>

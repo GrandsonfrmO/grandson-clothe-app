@@ -31,7 +31,7 @@ export function createCachedFunction<T extends (...args: any[]) => Promise<any>>
  */
 export async function invalidateCache(tag: string) {
   const { revalidateTag } = await import('next/cache')
-  revalidateTag(tag)
+  ;(revalidateTag as any)(tag)
 }
 
 /**

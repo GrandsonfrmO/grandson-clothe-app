@@ -42,7 +42,7 @@ export async function getUserFromToken(token: string) {
   const payload = verifyToken(token)
   if (!payload) return null
 
-  const user = await db.select().from(users).where(eq(users.id, payload.userId)).limit(1)
+  const user = await db!.select().from(users).where(eq(users.id, payload.userId)).limit(1)
   return user[0] || null
 }
 

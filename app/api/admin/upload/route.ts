@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
     console.log('✅ File converted to buffer:', buffer.length, 'bytes')
 
     // Upload to Cloudinary
-    return new Promise((resolve) => {
+    return new Promise<NextResponse>((resolve) => {
       console.log('📤 Starting Cloudinary upload...')
       const uploadStream = cloudinary.uploader.upload_stream(
         {

@@ -40,7 +40,7 @@ export function useImagePreload(
 }
 
 export function useIntersectionPreload(
-  ref: React.RefObject<HTMLElement>,
+  ref: React.RefObject<HTMLElement | null>,
   urls: string[]
 ) {
   const preloadedRef = useRef(false)
@@ -53,7 +53,18 @@ export function useIntersectionPreload(
         entries.forEach(entry => {
           if (entry.isIntersecting && !preloadedRef.current) {
             preloadedRef.current = true
-            useImagePreload(urls, { priority: 'high' })
+
+            // Manual preload instead of calling a hook inside a callback
+            urls.forEach(url => {
+              if (!url) return
+              const link = document.createElement('link')
+              link.rel = 'preload'
+              link.as = 'image'
+              link.href = url
+              link.fetchPriority = 'high'
+              document.head.appendChild(link)
+            })
+
             observer.disconnect()
           }
         })

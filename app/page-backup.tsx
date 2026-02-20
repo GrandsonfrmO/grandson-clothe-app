@@ -36,25 +36,25 @@ export default async function Home() {
           {/* Critical sections - rendered server-side */}
           <HeroBanner />
           <QuickCategories />
-          <FeaturedProducts title="Nouveautes" initialProducts={featuredProducts} />
+          <FeaturedProducts title="Nouveautes" />
           
           {/* Non-critical sections - with Suspense */}
           <Suspense fallback={<SectionSkeleton />}>
-            <SpecialOfferSection initialData={homeContent.specialOffer} />
+            <SpecialOfferSection />
           </Suspense>
           
           <Suspense fallback={<SectionSkeleton />}>
-            <GallerySection initialData={homeContent.gallery} />
+            <GallerySection />
           </Suspense>
           
           <PromoCard />
           
           <Suspense fallback={<SectionSkeleton />}>
-            <VideosSection initialData={homeContent.videos} />
+            <VideosSection />
           </Suspense>
           
           <Suspense fallback={<SectionSkeleton />}>
-            <ModelsSection initialData={homeContent.models} />
+            <ModelsSection />
           </Suspense>
           
           <Suspense fallback={<SectionSkeleton />}>

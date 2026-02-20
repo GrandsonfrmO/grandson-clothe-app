@@ -85,11 +85,11 @@ export async function testConnection() {
     console.log('- Time:', result[0].now)
     console.log('- Version:', result[0].version.split(' ')[0])
     return true
-  } catch (error) {
+  } catch (error: any) {
     console.error('❌ Database connection failed:', error)
     
     // Diagnostic détaillé
-    if (error.code === 'ENOTFOUND') {
+    if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOTFOUND') {
       console.error('🔍 DNS Resolution failed. Possible causes:')
       console.error('  - Internet connection issue')
       console.error('  - Supabase project paused/deleted')

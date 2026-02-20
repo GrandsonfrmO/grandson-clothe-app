@@ -40,7 +40,7 @@ export function QuickCategories() {
       const { cachedFetch } = await import('@/lib/request-cache')
       const data = await cachedFetch('/api/admin/categories', {}, 60 * 60 * 1000) // 1 hour cache
       
-      const fetchedCategories = (data.categories || []).map((cat: any) => ({
+      const fetchedCategories = ((data as any).categories || []).map((cat: any) => ({
         id: cat.id,
         category_name: cat.category_name,
         image: cat.image_url,
